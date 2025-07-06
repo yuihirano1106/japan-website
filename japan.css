@@ -22,21 +22,17 @@ opacity:0.8;
 
 @media  screen and (max-width:1024px){
 .japan-pic{
-height:200px;
-}
-
-.introduction-paragraph{
-  font-size:0.9em;
+height:290px;
 }
 }
-@media screen and (max-width:968px){
-  .title-name{
-    font-size:3em;
+@media screen and (max-width:760px){
+  .japan-pic{
+    height:250px;
   }
 }
 @media screen and (max-width:680px){
-  .title-name{
-    font-size:1.5em;
+  .japan-pic{
+    height:200px;
   }
 }
 

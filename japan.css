@@ -15,14 +15,14 @@ width:100%;
 margin:0;
 max-width:1500px;
 max-height:350px;
-height:350;
+height:350px;
 object-fit: cover;
 opacity:0.8;
 }
 
 @media  screen and (max-width:1024px){
 .japan-pic{
-height:200;
+height:200px;
 }
 
 .introduction-paragraph{

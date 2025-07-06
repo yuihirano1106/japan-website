@@ -27,12 +27,12 @@ height:290px;
 }
 @media screen and (max-width:760px){
   .japan-pic{
-    height:250px;
+    height:200px;
   }
 }
 @media screen and (max-width:480px){
   .japan-pic{
-    height:200px;
+    height:130px;
   }
 }
 

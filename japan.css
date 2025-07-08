@@ -12,12 +12,12 @@ p{
 }
 @media  screen and (max-width:1024px){
   .introduction-paragraph{
-    font-size:2em;  
+    font-size:1.8em;  
   }
   }
   @media screen and (max-width:898px){
    .introduction-paragraph{
-    font-size: 1.5em;
+    font-size: 1.1em;
    }
   }
   @media screen and (max-width:680px){
@@ -124,14 +124,15 @@ opacity:0.8
   }
   @media  screen and (max-width:1024px){
     .pic-kaminarimon{
-      align-items: center;
-      justify-content: center;
+      height: 270px;
+      width:270px;
   
     }
     }
     @media screen and (max-width:968px){
       .pic-kaminarimon{
-        
+        height: 290px;
+        width:290px;
       }
     }
     @media screen and (max-width:680px){
@@ -150,14 +151,14 @@ opacity:0.8
   .grid-pics{
    display:grid;
    grid-template-columns: 1fr 1fr;
-
+    place-items:center;
   }
   }
   @media screen and (max-width:968px){
     .grid-pics{
       display:grid;
       grid-template-columns: 1fr 1fr;
-
+      place-items: center;
     }
   }
   @media screen and (max-width:680px){
@@ -179,14 +180,14 @@ opacity:0.8
   .grid-pics2{
    display:grid;
    grid-template-columns: 1fr 1fr;
-
+   place-items:center;
   }
   }
   @media screen and (max-width:968px){
     .grid-pics2{
       display:grid;
       grid-template-columns: 1fr 1fr;
-
+      place-items:center;
     }
   }
   @media screen and (max-width:680px){
@@ -263,9 +264,19 @@ opacity:0.8
 .address-url{
    color:rgb(39, 71, 190);
 }
+@media  screen and (max-width:1024px){
+  .address-url{
+   font-size: 1.5em;
+  }
+  }
+  @media screen and (max-width:968px){
+    .address-url{
+      font-size: 1.2em;
+    }
+  }
 @media screen and (max-width:680px){
   .address-url{
-   font-size:0.9em;
+   font-size:0.8em;
   }
 }
 
@@ -273,6 +284,16 @@ opacity:0.8
   font-weight:300;
   font-size: 20px;
 }
+@media  screen and (max-width:1024px){
+  .text{
+   font-size:2em;
+  }
+  }
+  @media screen and (max-width:968px){
+    .text{
+      font-size:1.5em;
+    }
+  }
 @media screen and (max-width:680px){
   .text{
    font-size:1em ;
